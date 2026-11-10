@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Blog API</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; background: #f5f5f5; color: #333; }
+    nav { background: #2563eb; padding: 1rem 2rem; display: flex; gap: 1.5rem; }
+    nav a { color: #fff; text-decoration: none; font-weight: 600; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 800px; margin: 3rem auto; padding: 0 1rem; }
+    h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    p { line-height: 1.6; margin-bottom: 1rem; }
+    ul { margin-left: 1.5rem; line-height: 2; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+    <a href="/blog">Blog</a>
+  </nav>
+  <main>
+    <h1>About 📖</h1>
+    <p>This project is <strong>Workshop 05</strong> of the FullStack course. It demonstrates how to build a RESTful API using:</p>
+    <ul>
+      <li>Node.js &amp; Express – web server and routing</li>
+      <li>MongoDB &amp; Mongoose – database and schema validation</li>
+      <li>REST conventions – proper HTTP methods and status codes</li>
+      <li>dotenv – environment variable management</li>
+    </ul>
+    <p>The API supports full CRUD operations for blog posts (Create, Read, Update, Delete).</p>
+  </main>
+</body>
+</html>
